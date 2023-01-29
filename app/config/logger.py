@@ -1,7 +1,7 @@
-from pydantic import BaseModel
+from pydantic import BaseSettings
 
 
-class LoggerConfig(BaseModel):
+class LoggerConfig(BaseSettings):
     """Logging configuration to be set for the server"""
 
     LOG_FORMAT: str = "[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s"

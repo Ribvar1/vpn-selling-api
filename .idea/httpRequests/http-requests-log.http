@@ -1,0 +1,237 @@
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "country": "DE"
+}
+
+<> 2023-01-30T001616.200.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "country": "DEE"
+}
+
+<> 2023-01-30T001611.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "country": "DEE"
+}
+
+<> 2023-01-30T001403.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "country": "DEE"
+}
+
+<> 2023-01-30T001401.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "country": "DEE"
+}
+
+<> 2023-01-30T001400.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "currency": "BTC"
+}
+
+<> 2023-01-30T001349.200.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "currency": "RUB"
+}
+
+<> 2023-01-30T001342.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "currency": "RUB"
+}
+
+<> 2023-01-30T001136.422.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "price": 30
+}
+
+<> 2023-01-30T000820.200.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "active": false
+}
+
+<> 2023-01-30T000800.200.json
+
+###
+
+PATCH http://localhost:8000/tariff/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "active": true
+}
+
+<> 2023-01-30T000753.200.json
+
+###
+
+PATCH http://localhost:8000/tariff
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "active": true
+}
+
+<> 2023-01-30T000744.405.json
+
+###
+
+POST http://localhost:8000/tariff
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "name": "Месячная подписка на VPN",
+  "price": 100,
+  "currency": "RUB",
+  "days": 30,
+  "country": "RU"
+}
+
+<> 2023-01-30T000540.201.json
+
+###
+
+POST http://localhost:8000/tariff
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "name": "Месячная подписка на VPN",
+  "price": 100,
+  "currency": "RUB",
+  "days": 30,
+  "country": "RU"
+}
+
+<> 2023-01-30T000505.422.json
+
+###
+
+POST http://localhost:8000/tariff
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+{
+  "name": "Месячная подписка на VPN",
+  "price": 100,
+  "currency": "RUB",
+  "days": 30,
+  "country": "RU"
+}
+
+<> 2023-01-30T000423.422.json
+
+###
+
+GET http://localhost:8000/tariff
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+<> 2023-01-30T000122.200.json
+
+###
+
+GET http://localhost:8000/tariff
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+<> 2023-01-30T000035.404.json
+
+###
+
+GET http://localhost:8000/user
+Accept: application/json
+Authorization: Bearer 382a5408-066d-40a9-bd03-36c7810f53c9
+
+<> 2023-01-29T232856.200.json
+
+###
+
+GET http://localhost:8000/user
+Accept: application/json
+
+<> 2023-01-29T232618.403.json
+
+###
+

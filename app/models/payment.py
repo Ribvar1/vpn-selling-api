@@ -11,7 +11,7 @@ from app.models.subscription import Subscription
 class Payment(IdentifiableMixin, TimestampableMixin):
     user_id: int = field(metadata={"sa": Column(ForeignKey("user.id", ondelete="CASCADE"))})
     price: float = field(metadata={"sa": Column(Float, nullable=False)})
-    currency: str = field(metadata={"sa": Column(String(3), nullable=False)})
+    currency: str = field(metadata={"sa": Column(String(8), nullable=False)})
     subscription_id: int = field(metadata={"sa": Column(ForeignKey("subscription.id", ondelete="CASCADE"))})
 
     subscription: Subscription = relationship(
