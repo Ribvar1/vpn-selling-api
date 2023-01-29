@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "vpn-selling-api"
+version = "0.1.0"
+description = "REST API for selling VPN subscriptions"
+authors = ["arutyunyan <8david@inbox.ru>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "vpn_selling_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^1.4.46"
+uvicorn = "^0.20.0"
+toml = "^0.10.2"
+pydantic = "^1.10.4"
+asyncpg = "^0.27.0"
+greenlet = "^2.0.1"
+facrud_router = "^0.1.2"
+fastapi = "0.88.0"
+aiocryptopay = "^0.2.4"
+alembic = "^1.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
